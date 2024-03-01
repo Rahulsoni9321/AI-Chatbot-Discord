@@ -17,7 +17,7 @@ const axios=require("axios")
 
     // Set the headers
     const headers = {
-      "x-api-key": "0xEE545dEb0Ca813c888BE8414640b2b0efAA57237", // Ensure API key is set in .env
+      "x-api-key": process.env.FLOCK_API_KEY, // Ensure API key is set in .env
     };
 
     // Send POST request using axios
